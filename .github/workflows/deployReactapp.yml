@@ -1,4 +1,4 @@
-name: Build, test and deploy reach app
+name: Build, test and deploy react app
 on: push
 jobs:
     test:
