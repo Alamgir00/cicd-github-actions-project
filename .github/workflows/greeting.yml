@@ -1,8 +1,8 @@
 name: Greetings
-on: workflow_dispatch
+on: push
 jobs:
     greet:
         runs-on: ubuntu-latest
         steps:
-            - name: "greet user"
-              run: echo "Hello world"
+            - name: "greet DevOps user"
+              run: echo "Hello DevOps user, Welcome to GitHub Actions
